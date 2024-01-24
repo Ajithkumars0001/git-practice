@@ -5,3 +5,13 @@
                 startIndex=_temp_index,
                 srcMac=self.DUT_MAC,
                 dstMac=dstMac,
+				
+				
+				
+				
+				 (_pkt_index, _step_results[index]) = ScriptHelper.CheckIfPacketPresent(
+                packetList=self.__listOfPackets,
+                packetType=Thread_PacketTypes.Data_Response,
+                startIndex=_temp_index,
+                srcMac=self.DUT_MAC,
+                dstMac=dstMac,
